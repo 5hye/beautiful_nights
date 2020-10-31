@@ -1,0 +1,89 @@
+.box{ filter: blur(35px);
+    width: 100px;
+    height: 100px;
+    background-color:#0B0B0D; top:-20px; left:0px; z-index: 5px; position:absolute;
+}
+
+.night{top:0px; left:0px; z-index: -5px; position:absolute; width:1515px; height: 810px;}
+.night2{top:0px; left:0px; z-index: 20px; position:absolute; width:1515px; height: 810px;}
+.night3{top:15px; left:190px; z-index: 20px; position:absolute; width:1150px; height: 780px;}
+.night4{top:10px; left:10px; z-index: 20px; position:absolute; width:1250px; height: 640px;}
+.night5{top:0px; left:0px; z-index: 20px; position:absolute; width:1515px; height: 850px;}
+
+
+.blinking{
+	-webkit-animation:blink 1.5s ease-in-out infinite alternate;
+    -moz-animation:blink 1.5s ease-in-out infinite alternate;
+    animation:blink 1.5s ease-in-out infinite alternate;
+}
+@-webkit-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+
+.blinking2{
+	-webkit-animation:blink 3s ease-in-out infinite alternate;
+    -moz-animation:blink 3s ease-in-out infinite alternate;
+    animation:blink 3s ease-in-out infinite alternate;
+}
+@-webkit-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+
+.blinking3{
+	-webkit-animation:blink 3s ease-in-out infinite alternate;
+    -moz-animation:blink 3s ease-in-out infinite alternate;
+    animation:blink 3s ease-in-out infinite alternate;
+}
+@-webkit-keyframes blink{
+    0% {opacity:1;}
+    100% {opacity:0;}
+}
+@-moz-keyframes blink{
+    0% {opacity:1;}
+    100% {opacity:0;}
+}
+@keyframes blink{
+    0% {opacity:1;}
+    100% {opacity:0;}
+}
+
+.blinking4{
+	-webkit-animation:blink 5s ease-in-out infinite alternate;
+    -moz-animation:blink 5s ease-in-out infinite alternate;
+    animation:blink 5s ease-in-out infinite alternate;
+}
+@-webkit-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+
+    
